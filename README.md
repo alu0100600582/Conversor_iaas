@@ -74,6 +74,6 @@ Repositorio Github: https://github.com/alu0100600582/Conversor_iaas
 
 Despliegue de la aplicación en el IAAS: http://10.6.128.94:8080/index.html
 
-GitHub page de la aplicación: http://alu0100600582.github.io/Conversor_WebWorkers/
+GitHub page de la aplicación: http://alu0100600582.github.io/Conversor_iaas/
 
 GitHub page de las pruebas: http://alu0100600582.github.io/Conversor_iaas/tests/test_blanket.html
