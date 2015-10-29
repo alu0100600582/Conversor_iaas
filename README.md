@@ -4,7 +4,7 @@
 
 En esta práctica vamos a desplegar nuestro Conversor de Temperatura en el servidor del IAAS de la ULL. También vamos a añadirle a la práctica los tests con Sinon.
 
-#### Requisitos de la Práctica:
+### Requisitos de la Práctica:
 
 - Despliegue la práctica anterior Karma, Travis y Web Workers en su máquina virtual del servicio iaas.ull.es.
 
@@ -14,13 +14,14 @@ En esta práctica vamos a desplegar nuestro Conversor de Temperatura en el servi
 
 - La IP dinámica de su máquina virtual no debería cambiar. Publique la URL de despliegue en su máquina además de los enlaces habituales.
 
+---
 
-##### Tutorial de uso y despliegue de una aplicación web en iaas.ull.es
+## Tutorial de uso y despliegue de una aplicación web en iaas.ull.es
 
 
 Accedemos al portal web de [iaas.ull.es](http://iaas.ull.es), para ello debemos de estar dentro de la ULL y loguearnos dentro de [acceso.ull.es](http://acceso.ull.es), en otro caso, si estamos fuera de esa red, tendremos que acceder mediante el [servicio de VPN de la Universidad](https://usuarios.ull.es/vpn/).
 
-Una vez que hayamos accedido a la web del iaas ya tenemos disponible nuestra máquina (SISTEVWEB). Primero que nada tenemos que configurar el visor VNC para que nos muestra la consola en otra pestaña del navegador, para ello marcamos la opción noVNC de las opciones de consola.
+Una vez que hayamos accedido a la web del iaas ya tenemos disponible nuestra máquina (SISTEcWEB). Primero que nada tenemos que configurar el visor VNC para que nos muestra la consola en otra pestaña del navegador, para ello marcamos la opción noVNC de las opciones de consola.
 
 ![opciones](images/vnc.png)
 
@@ -45,15 +46,18 @@ Añadimos la clave generada a github para poder trabar con él y despues de conf
 
 <pre> git clone  git@github.com:alu0100600582/Conversor_iaas.git </pre>
 
-Hacemos un <pre> npm install </pre> para instalar las dependencias del proyecto y para finalizar debemos ejecutar nodejs para el despliegue de la aplicación. Para ellos usamos el comando:
+Hacemos un npm install para instalar las dependencias del proyecto y para finalizar debemos ejecutar nodejs para el despliegue de la aplicación. Para ellos usamos el comando:
 
 <pre> nodejs static-server.js </pre>
 
 Una vez realizado todo el proceso deberiamos de tener disponible nuestra aplicación en la Web.
 
-[Conversor de Temeperatura en la Web](http://10.6.128.94:8080/index.html)
+[Conversor de Temperatura en la Web](http://10.6.128.94:8080/index.html)
 
-###### Enlaces
+
+
+#### Enlaces
+
 ---
 
 Travis
