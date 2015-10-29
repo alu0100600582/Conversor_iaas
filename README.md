@@ -21,7 +21,7 @@ En esta práctica vamos a desplegar nuestro Conversor de Temperatura en el servi
 
 Accedemos al portal web de [iaas.ull.es](http://iaas.ull.es), para ello debemos de estar dentro de la ULL y loguearnos dentro de [acceso.ull.es](http://acceso.ull.es), en otro caso, si estamos fuera de esa red, tendremos que acceder mediante el [servicio de VPN de la Universidad](https://usuarios.ull.es/vpn/).
 
-Una vez que hayamos accedido a la web del iaas ya tenemos disponible nuestra máquina (SISTEcWEB). Primero que nada tenemos que configurar el visor VNC para que nos muestra la consola en otra pestaña del navegador, para ello marcamos la opción noVNC de las opciones de consola.
+Una vez que hayamos accedido a la web del iaas ya tenemos disponible nuestra máquina (SISTECWEB). Primero que nada tenemos que configurar el visor VNC para que nos muestra la consola en otra pestaña del navegador, para ello marcamos la opción noVNC de las opciones de consola.
 
 ![opciones](images/vnc.png)
 
